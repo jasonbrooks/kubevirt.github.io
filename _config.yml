@@ -19,3 +19,6 @@ permalink: /:year/:title:output_ext
 plugins_dir: [jekyll-paginate]
 paginate: 10
 paginate_path: "/blog/page:num"
+
+# Gems
+gems: [jekyll-paginate]
