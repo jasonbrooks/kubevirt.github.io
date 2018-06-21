@@ -21,4 +21,5 @@ paginate: 10
 paginate_path: "/blog/page:num"
 
 # Gems
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
