@@ -18,6 +18,7 @@ permalink: /:year/:title:output_ext
 gems:
   - jekyll-paginate
   - html-proofer
+  - kramdown
 
 plugins_dir: [jekyll-paginate]
 paginate: 10
