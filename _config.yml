@@ -16,6 +16,6 @@ kubevirt_version: v0.7.0-alpha.2
 markdown: kramdown
 permalink: /:year/:title:output_ext
 
-plugins: [jekyll-paginate]
+plugins_dir: [jekyll-paginate]
 paginate: 10
 paginate_path: "/blog/page:num"
