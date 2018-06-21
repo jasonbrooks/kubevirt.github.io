@@ -19,6 +19,7 @@ gems:
   - jekyll-paginate
   - html-proofer
   - kramdown
+  - github-pages
 
 plugins_dir: [jekyll-paginate]
 paginate: 10
