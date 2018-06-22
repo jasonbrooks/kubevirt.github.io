@@ -1,5 +1,6 @@
 doc:
   - title: Introduction
+    url: /docs/introduction
     subfolderitems:
       - page: Introduction
         url: /docs/introduction
