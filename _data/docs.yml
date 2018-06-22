@@ -57,7 +57,7 @@ doc:
         subsubfolderitems:
           - page: VirtualMachine
             url: /docs/workloads/controllers/virtual-machine
-          - page:Virtual Machine Replica Set
+          - page: Virtual Machine Replica Set
             url: /docs/workloads/controllers/virtual-machine-replica-set
       - page: Templates
         url: /docs/workloads/templates/README
