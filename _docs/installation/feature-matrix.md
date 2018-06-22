@@ -1,6 +1,5 @@
 ---
 title: Feature matrix
-permalink: /docs/feature-matrix
 ---
 
 ## Kubernetes feature dependencies
