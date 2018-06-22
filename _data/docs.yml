@@ -29,5 +29,5 @@ doc:
       - page: templates
    - title: "Additional resources"
      subfolderitems:
-       - page: Additional resources
-         url: /docs/additional-resources
+      - page: Additional resources
+        url: /docs/additional-resources
