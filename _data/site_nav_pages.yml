@@ -1,16 +1,16 @@
 pages:
 
 - title: Get KubeVirt
-  url: /get_kubevirt
+  url: /get_kubevirt/
 
 - title: Blog
-  url: /blog
+  url: /blog/
 
 - title: Resources
-  url: /resources
+  url: /resources/
 
 - title: Community
-  url: /community
+  url: /community/
 
 - title: Privacy
-  url: /privacy
+  url: /privacy/
