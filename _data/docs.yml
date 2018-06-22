@@ -62,7 +62,7 @@ doc:
       - page: Templates
         url: /docs/workloads/templates/README
         subsubfolderitems:
-          - page:Virtual Machine Creation
+          - page: Virtual Machine Creation
             url: /docs/workloads/templates/vm-creation
   - title: "Additional resources"
     subfolderitems:
