@@ -7,10 +7,10 @@ doc:
     subfolderitems:
       - page: Installation
         url: /docs/installation
-      - page: api-validation
-        url: /docs/api-validation
-      - page: feature-matrix
-        url: /docs/feature-matrix
+      - page: API Validation
+        url: /docs/installation/api-validation
+      - page: Feature Matrix
+        url: /docs/installation/feature-matrix
   - title: Usage
     subfolderitems:
       - page: usage
