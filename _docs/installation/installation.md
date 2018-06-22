@@ -1,7 +1,6 @@
 ---
 title: Installation
 permalink: /docs/installation/
-category: Installation
 ---
 
 KubeVirt is a virtualization add-on to Kubernetes and this guide assumes that a Kubernetes cluster is already installed.

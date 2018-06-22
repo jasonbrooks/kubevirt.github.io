@@ -53,14 +53,14 @@ doc:
           - page: Assigning VMs to Nodes
             url: /docs/workloads/virtual-machines/assigning-vms-to-nodes
       - page: Controllers
-        url: /docs/workloads/controllers/README
+        url: /docs/workloads/controllers
         subsubfolderitems:
           - page: VirtualMachine
             url: /docs/workloads/controllers/virtual-machine
           - page: Virtual Machine Replica Set
             url: /docs/workloads/controllers/virtual-machine-replica-set
       - page: Templates
-        url: /docs/workloads/templates/README
+        url: /docs/workloads/templates
         subsubfolderitems:
           - page: Virtual Machine Creation
             url: /docs/workloads/templates/vm-creation
