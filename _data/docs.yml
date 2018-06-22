@@ -50,15 +50,16 @@ doc:
             url: /docs/workloads/virtual-machines/guest-operating-system-information
           - page: Virtualized Hardware Configuration
             url: /docs/workloads/virtual-machines/virtualized-hardware-configuration
-          - page: Assigning VMs to Nodesworkloads/virtual-machines/assigning-vms-to-nodes
-      - page: controllers
+          - page: Assigning VMs to Nodes
+            url: /docs/workloads/virtual-machines/assigning-vms-to-nodes
+      - page: Controllers
         url: /docs/workloads/controllers/README
         subsubfolderitems:
           - page: VirtualMachine
             url: /docs/workloads/controllers/virtual-machine
           - page:Virtual Machine Replica Set
             url: /docs/workloads/controllers/virtual-machine-replica-set
-      - page: templates Templates
+      - page: Templates
         url: /docs/workloads/templates/README
         subsubfolderitems:
           - page:Virtual Machine Creation
