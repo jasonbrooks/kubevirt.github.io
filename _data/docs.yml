@@ -52,6 +52,7 @@ doc:
             url: /docs/workloads/virtual-machines/virtualized-hardware-configuration
           - page: Assigning VMs to Nodesworkloads/virtual-machines/assigning-vms-to-nodes
       - page: controllers
+        url: /docs/workloads/controllers/README
         subsubfolderitems:
           - page: VirtualMachine
             url: /docs/workloads/controllers/virtual-machine
