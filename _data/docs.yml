@@ -27,7 +27,7 @@ doc:
           - page: node-eviction
       - page: controllers
       - page: templates
-   - title: "Additional resources"
-     subfolderitems:
+  - title: "Additional resources"
+    subfolderitems:
       - page: Additional resources
         url: /docs/additional-resources
