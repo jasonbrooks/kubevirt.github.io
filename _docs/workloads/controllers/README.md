@@ -1,3 +1,8 @@
+---
+title: Controllers
+permalink: /docs/workloads/controllers
+---
+
 # Controllers
 
 Controllers provide the logic to manage virtual machine instances in a way that
