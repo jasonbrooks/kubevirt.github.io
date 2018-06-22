@@ -1,0 +1,29 @@
+doc:
+  - title: Introduction
+    subfolderitems:
+      - page: Introduction
+        url: /docs/introduction
+  - title: Installation
+    subfolderitems:
+      - page: Installation
+        url: /docs/installation
+      - page: api-validation
+        url: /docs/api-validation
+      - page: feature-matrix
+        url: /docs/feature-matrix
+  - title: Usage
+    subfolderitems:
+      - page: usage
+        url: /docs/usage
+  - title: Authorization
+    subfolderitems:
+      - page: authorization
+        url: authorization
+  - title: Workloads
+    subfolderitems:
+      - page: virtual-machines
+        subsubfolderitems:
+          - page: creation
+          - page: node-eviction
+      - page: controllers
+      - page: templates
