@@ -1,6 +1,6 @@
 ---
 title: Controllers
-permalink: /docs/workloads/controllers
+permalink: /docs/workloads/controllers/
 ---
 
 # Controllers
