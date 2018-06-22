@@ -9,6 +9,9 @@ pages:
 - title: Resources
   url: /resources/
 
+- title: Docs
+  url: /docs/
+
 - title: Community
   url: /community/
 
