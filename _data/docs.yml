@@ -7,9 +7,9 @@ doc:
     subfolderitems:
       - page: Installation
         url: /docs/installation
-      - page: API Validation
+      - page: "API Validation"
         url: /docs/installation/api-validation
-      - page: Feature Matrix
+      - page: "Feature Matrix"
         url: /docs/installation/feature-matrix
   - title: Usage
     subfolderitems:
@@ -27,7 +27,7 @@ doc:
           - page: node-eviction
       - page: controllers
       - page: templates
-   - title: Additional resources
+   - title: "Additional resources"
      subfolderitems:
        - page: Additional resources
          url: /docs/additional-resources
