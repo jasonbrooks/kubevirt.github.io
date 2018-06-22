@@ -1,6 +1,5 @@
 doc:
   - title: Introduction
-    url: /docs/introduction
     subfolderitems:
       - page: Introduction
         url: /docs/introduction
@@ -14,20 +13,55 @@ doc:
         url: /docs/installation/feature-matrix
   - title: Usage
     subfolderitems:
-      - page: usage
+      - page: Usage
         url: /docs/usage
   - title: Authorization
     subfolderitems:
-      - page: authorization
-        url: authorization
+      - page: Authorization
+        url: /docs/authorization
   - title: Workloads
     subfolderitems:
-      - page: virtual-machines
+      - page: Virtual Machines
+        url: /docs/workloads/virtual-machines
         subsubfolderitems:
-          - page: creation
-          - page: node-eviction
+          - page: Creation
+            url: /docs/workloads/virtual-machines
+          - page: Node Eviction
+            url: /docs/workloads/node-eviction
+          - page: Presets
+            url: /docs/workloads/virtual-machines/presets
+          - page: Life-cycle
+            url: /docs/workloads/virtual-machines/life-cycle
+          - page: DNS for Services and VirtualMachineInstances
+            url: /docs/workloads/virtual-machines/dns
+          - page: Expose VirtualMachineInstances as Services
+            url: /docs/workloads/virtual-machines/expose-service
+          - page: Create Networkpolicy
+            url: /docs/workloads/virtual-machines/create-networkpolicy
+          - page: Graphical and Console Access
+            url: /docs/workloads/virtual-machines/graphical-and-console-access
+          - page: Disks and Volumes
+            url: /docs/workloads/virtual-machines/disks-and-volumes
+          - page: Interfaces and Networks
+            url: /docs/workloads/virtual-machines/interfaces-and-networks
+          - page: Startup Scripts
+            url: /docs/workloads/virtual-machines/startup-scripts
+          - page: Guest Operating System Information
+            url: /docs/workloads/virtual-machines/guest-operating-system-information
+          - page: Virtualized Hardware Configuration
+            url: /docs/workloads/virtual-machines/virtualized-hardware-configuration
+          - page: Assigning VMs to Nodesworkloads/virtual-machines/assigning-vms-to-nodes
       - page: controllers
-      - page: templates
+        subsubfolderitems:
+          - page: VirtualMachine
+            url: /docs/workloads/controllers/virtual-machine
+          - page:Virtual Machine Replica Set
+            url: /docs/workloads/controllers/virtual-machine-replica-set
+      - page: templates Templates
+        url: /docs/workloads/templates/README
+        subsubfolderitems:
+          - page:Virtual Machine Creation
+            url: /docs/workloads/templates/vm-creation
   - title: "Additional resources"
     subfolderitems:
       - page: Additional resources
