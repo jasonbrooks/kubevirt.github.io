@@ -1,5 +1,6 @@
 ---
 category: authorization
+permalink: /docs/authorization/
 ---
 
 # Authorization

@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 7
+permalink: /docs/create-networkpolicy/
 ---
 # Enabling NetworkPolicy for VirtualMachineInstance
 

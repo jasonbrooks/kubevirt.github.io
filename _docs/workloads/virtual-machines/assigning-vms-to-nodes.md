@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 14
+permalink: /docs/assigning-vms-to-nodes/
 ---
 # Assigning VMs to Nodes
 

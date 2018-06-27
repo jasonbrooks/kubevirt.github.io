@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 5
+permalink: /docs/dns/
 ---
 # DNS for Services and VirtualMachineInstances
 

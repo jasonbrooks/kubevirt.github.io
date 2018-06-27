@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 1
+permalink: /docs/creation/
 ---
 # Creation
 

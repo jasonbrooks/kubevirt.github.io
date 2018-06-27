@@ -1,6 +1,7 @@
 ---
 category: installation
 order: 2
+permalink: /docs/feature-matrix
 ---
 
 # Feature matrix

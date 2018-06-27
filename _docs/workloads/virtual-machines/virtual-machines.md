@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 title: virtual machines
+permalink: /docs/virtual-machines/
 ---
 
 The `VirtualMachineInstance` type conceptionally has two parts:

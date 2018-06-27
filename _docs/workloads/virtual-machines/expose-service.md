@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 6
+permalink: /docs/expose-service/
 ---
 # Expose VirtualMachineInstances as a Services
 

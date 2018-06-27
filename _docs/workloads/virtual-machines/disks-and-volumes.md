@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 9
+permalink: /docs/disks-and-volumes/
 ---
 # Disks and Volumes
 

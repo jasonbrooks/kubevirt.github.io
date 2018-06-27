@@ -1,5 +1,6 @@
 ---
 category: installation
+permalink: /docs/api-validation/
 order: 1
 ---
 
