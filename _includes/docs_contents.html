@@ -3,7 +3,7 @@
 {% for cats in site.mycategories %}
   {% for cat in cats %}
     <h2><a href="{{ cat[1] }}">{{ cat[0] | capitalize }}</h2>
-      <ul>{% for doc in mydocs %}{% if cat[0] == doc.category %}{% unless cat[0] == doc.slug %}
+      <ul>{% for doc in mydocs %}{% if cat[0] == doc.category %}{% unless cat[0] == doc.title %}
           <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
         {% endunless %}
         {% endif %}
