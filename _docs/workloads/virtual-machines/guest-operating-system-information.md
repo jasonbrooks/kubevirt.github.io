@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 12
+permalink: /docs/guest-operating-system-information/
 ---
 # Guest Operating System Information
 

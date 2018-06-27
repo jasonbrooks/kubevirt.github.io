@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 2
+permalink: /docs/node-eviction/
 ---
 # VirtualMachineInstance Node Eviction
 

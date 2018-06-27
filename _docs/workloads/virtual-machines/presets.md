@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 3
+permalink: /docs/presets/
 ---
 # Presets
 

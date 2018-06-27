@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 13
+permalink: /docs/virtualized-hardware-configuration/
 ---
 # Virtualized Hardware Configuration
 

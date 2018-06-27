@@ -1,5 +1,6 @@
 ---
 category: controllers
+permalink: /docs/virtual-machine/
 ---
 
 # VirtualMachine

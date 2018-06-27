@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 11
+permalink: /docs/startup-scripts/
 ---
 # Startup Scripts
 

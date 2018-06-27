@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 8
+permalink: /docs/graphical-and-console-access/
 ---
 # Graphical and Serial Console Access
 

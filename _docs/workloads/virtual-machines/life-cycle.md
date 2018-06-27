@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 4
+permalink: /docs/life-cycle/
 ---
 # Life-cycle
 

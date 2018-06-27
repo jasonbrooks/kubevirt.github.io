@@ -1,6 +1,7 @@
 ---
 category: virtual machines
 order: 10
+permalink: /docs/interfaces-and-networks/
 ---
 # Interfaces and Networks
 

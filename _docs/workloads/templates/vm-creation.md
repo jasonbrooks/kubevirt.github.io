@@ -1,5 +1,6 @@
 ---
 category: templates
+permalink: /docs/vm-creation/
 ---
 # Virtual Machine Creation
 
