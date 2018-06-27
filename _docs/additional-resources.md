@@ -1,6 +1,6 @@
 ---
 category: additional resources
-order: 100
+permalink: /docs/additional-resources/
 ---
 
 # Additional resources
