@@ -27,7 +27,7 @@ paginate_path: "/blog/page:num"
 
 collections:
   docs:
-    permalink: "/:collection/:title"
+    permalink: "/:collection/:slug"
     output: true
 defaults:
 - scope:

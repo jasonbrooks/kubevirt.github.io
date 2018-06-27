@@ -1,5 +1,6 @@
 ---
 category: usage
+permalink: /docs/usage/
 ---
 
 # Usage
