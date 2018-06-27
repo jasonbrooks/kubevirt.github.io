@@ -1,22 +1,14 @@
 <div class="unit one-fifth hide-on-mobiles">
-{% if site.data.docs.doc[0] %}
-  {% for item in site.data.docs.doc %}
-    <h3>{{ item.title }}</h3>
-      {% if item.subfolderitems[0] %}
-        <ul>
-          {% for entry in item.subfolderitems %}
-              <li><a href="{{ entry.url }}">{{ entry.page }}</a>
-                {% if entry.subsubfolderitems[0] %}
-                  <ul>
-                  {% for subentry in entry.subsubfolderitems %}
-                      <li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
-                  {% endfor %}
-                  </ul>
-                {% endif %}
-              </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    {% endfor %}
-{% endif %}
+{% assign mydocs = site.docs | sort: 'order' %}
+{% for cats in site.mycategories %}
+  {% for cat in cats %}
+    <h2><a href="{{ cat[1] }}">{{ cat[0] | capitalize }}</h2>
+      <ul>{% for doc in mydocs %}{% if cat[0] == doc.category %}{% unless cat[0] == doc.slug %}
+          <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+        {% endunless %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+  {% endfor %}
+{% endfor %}
 </div>

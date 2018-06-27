@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 13
+---
 # Virtualized Hardware Configuration
 
 Fine-tuning different aspects of the hardware which are not device related \(BIOS, mainboard, ...\) is sometimes necessary to allow guest operating systems to properly boot and reboot.

@@ -1,3 +1,8 @@
+---
+title: Workloads
+published: false
+---
+
 # Workloads
 
 This part contains sections with details about the different workload types which KubeVirt supports.

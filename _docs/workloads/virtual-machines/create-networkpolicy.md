@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 7
+---
 # Enabling NetworkPolicy for VirtualMachineInstance
 
 Before creating NetworkPolicy objects, make sure you are using a networking solution which supports NetworkPolicy. Network isolation is controlled entirely by NetworkPolicy objects. By default, all vmis in a namespace are accessible from other vmis and network endpoints. To isolate one or more vmis in a project, you can create NetworkPolicy objects in that namespace to indicate the allowed incoming connections.

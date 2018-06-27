@@ -27,7 +27,7 @@ paginate_path: "/blog/page:num"
 
 collections:
   docs:
-    permalink: "/:collection/:path/"
+    permalink: "/:collection/:title"
     output: true
 defaults:
 - scope:
@@ -36,3 +36,12 @@ defaults:
   values:
     layout: docs
 
+mycategories:
+  - "introduction": "/docs/introduction/" 
+  - "installation": "/docs/installation/"
+  - "usage": "/docs/usage/"
+  - "authorization": "/docs/authorization/"
+  - "virtual machines": "/docs/virtual-machines/"
+  - "controllers": "/docs/controllers/"
+  - "templates": "/docs/templates/"
+  - "additional resources": "/docs/additional-resources/"

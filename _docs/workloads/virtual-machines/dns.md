@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 5
+---
 # DNS for Services and VirtualMachineInstances
 
 ## Creating unique DNS entries per VirtualMachineInstance

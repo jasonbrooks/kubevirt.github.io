@@ -1,6 +1,9 @@
 ---
-title: KubeVirt API Validation
+category: installation
+order: 1
 ---
+
+# KubeVirt API Validation
 
 The KubeVirt VirtualMachineInstance API is implemented using a Kubernetes Custom
 Resource Definition (CRD). Because of this, KubeVirt is able to leverage a

@@ -1,3 +1,7 @@
+---
+category: controllers
+---
+
 # VirtualMachineInstanceReplicaSet
 
 ## VirtualMachineInstanceReplicaSet

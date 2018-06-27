@@ -1,6 +1,9 @@
 ---
-title: Feature matrix
+category: installation
+order: 2
 ---
+
+# Feature matrix
 
 ## Kubernetes feature dependencies
 

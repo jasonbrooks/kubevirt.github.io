@@ -1,6 +1,8 @@
 ---
-title: Presets
+category: virtual machines
+order: 3
 ---
+# Presets
 
 ## What is a VirtualMachineInstancePreset?
 

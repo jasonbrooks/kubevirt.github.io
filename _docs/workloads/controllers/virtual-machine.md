@@ -1,3 +1,7 @@
+---
+category: controllers
+---
+
 # VirtualMachine
 
 An _VirtualMachine_  provides additional management capabilities to a

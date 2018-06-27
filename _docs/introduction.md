@@ -1,18 +1,11 @@
 ---
-title: Introduction
 permalink: /docs/introduction/
-category: Introduction
+title: introduction
+category: introduction
 ---
 
-![](assets/kubevirt-pre-256x256.png)
+!> **Note:** This is a heavy work in progress. We do our best to keep it in sync with released features. If you encounter any problem, please file an [issue](https://github.com/kubevirt/kubevirt/issues).
 
-# KubeVirt User Guide <small>v0.4.0</small>
+[KubeVirt](http://kubevirt.io) is a Kubernetes add-on to run virtual machines \(VirtualMachineInstances\) on a Kubernetes cluster. This document is intended for users, and will guide you through installation and various features.
 
-> Reference documentation
-
-* Installation
-* Life-cycle management
-* Additional resources
-
-[GitHub](https://github.com/kubevirt)
-[Start reading](#Introduction)
+**Read it at:** <http://docs.kubevirt.io>

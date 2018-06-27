@@ -1,7 +1,6 @@
 ---
-title: Virtual Machines
-permalink: /docs/workloads/virtual-machines/
-category: Workloads
+category: virtual machines
+title: virtual machines
 ---
 
 The `VirtualMachineInstance` type conceptionally has two parts:

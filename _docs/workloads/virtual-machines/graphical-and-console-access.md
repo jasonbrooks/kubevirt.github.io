@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 8
+---
 # Graphical and Serial Console Access
 
 Once a virtual machine is started you are able to connect to the consoles it

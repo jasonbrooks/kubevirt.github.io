@@ -1,6 +1,8 @@
 ---
-title: Authorization
+category: authorization
 ---
+
+# Authorization
 
 KubeVirt authorization is performed using Kubernete's Resource Based
 Authorization Control system (RBAC). RBAC allows cluster admins to grant

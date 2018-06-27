@@ -1,7 +1,9 @@
 ---
-title: Additional resources
-permalink: /docs/additional-resources/
+category: additional resources
+order: 100
 ---
+
+# Additional resources
 
 ## Incubator
 

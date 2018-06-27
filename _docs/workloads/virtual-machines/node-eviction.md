@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 2
+---
 # VirtualMachineInstance Node Eviction
 
 Before removing a kubernetes node from the cluster, users will want to ensure

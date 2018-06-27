@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 14
+---
 # Assigning VMs to Nodes
 
 You can constrain the VM to only run on specific nodes or to prefer running on specific nodes:

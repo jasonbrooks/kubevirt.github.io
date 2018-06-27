@@ -1,8 +1,8 @@
 ---
 title: Templates
-permalink: /docs/workloads/templates/
-category: Workloads
+category: templates
 ---
+# Templates
 
 !> This only works on OpenShift so far \(See [Installation Guide](/installation/README) for more information on how to deploy KubeVirt on OpenShift\).
 

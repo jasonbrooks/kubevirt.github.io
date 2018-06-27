@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 12
+---
 # Guest Operating System Information
 
 Guest operating system identity for the VirtualMachineInstance will be provided by the label `kubevirt.io/os` :

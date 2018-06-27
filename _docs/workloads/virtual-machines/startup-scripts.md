@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 11
+---
 # Startup Scripts
 
 ## Overview

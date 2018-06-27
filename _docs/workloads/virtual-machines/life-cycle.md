@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 4
+---
 # Life-cycle
 
 Every `VirtualMachineInstance` represents a single virtual machine _instance_.

@@ -1,3 +1,7 @@
+---
+category: virtual machines
+order: 6
+---
 # Expose VirtualMachineInstances as a Services
 
 Once the VirtualMachineInstance is started, in order to connect to a VirtualMachineInstance,

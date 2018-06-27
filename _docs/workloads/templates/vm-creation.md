@@ -1,3 +1,6 @@
+---
+category: templates
+---
 # Virtual Machine Creation
 
 ## Overview

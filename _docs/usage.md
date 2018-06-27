@@ -1,7 +1,8 @@
 ---
-title: Usage
-permalink: /docs/usage/
+category: usage
 ---
+
+# Usage
 
 Using KubeVirt should be fairly natural if you are used to working with Kubernetes.
 
