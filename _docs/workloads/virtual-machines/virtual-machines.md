@@ -1,6 +1,6 @@
 ---
 category: virtual machines
-title: virtual machines
+title: "virtual machines"
 permalink: /docs/virtual-machines/
 ---
 

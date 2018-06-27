@@ -1,5 +1,5 @@
 ---
-category: additional resources
+category: "additional resources"
 permalink: /docs/additional-resources/
 ---
 
