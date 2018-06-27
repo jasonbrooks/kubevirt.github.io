@@ -1,6 +1,7 @@
 ---
 category: "additional resources"
 permalink: /docs/additional-resources/
+title: "additional resources"
 ---
 
 # Additional resources
