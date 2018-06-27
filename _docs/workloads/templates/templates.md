@@ -1,6 +1,7 @@
 ---
 title: Templates
 category: templates
+permalink: /docs/templates/
 ---
 # Templates
 
