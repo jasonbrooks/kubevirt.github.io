@@ -1,37 +1,48 @@
----
-layout: docs
-title: Guest Operating System Information
-permalink: /docs/workloads/vms/guest-os-info.html
-navbar_active: Docs
-order: 10
----
+:page-layout: docs
+:page-permalink: /docs/workloads/vms/guest-os-info
+[[guest-operating-system-information]]
+Guest Operating System Information
+----------------------------------
 
-# Guest Operating System Information
+Guest operating system identity for the VirtualMachineInstance will be
+provided by the label `kubevirt.io/os` :
 
-Guest operating system identity for the VirtualMachineInstance will be provided by the label `kubevirt.io/os` :
-
-```yaml
+[source,yaml]
+----
 metadata:
   name: myvmi
   labels:
     kubevirt.io/os: win2k12r2
-```
+----
 
-The `kubevirt.io/os` label is based on the short OS identifier from [libosinfo](https://libosinfo.org/) database. The following Short IDs are currently supported:
+The `kubevirt.io/os` label is based on the short OS identifier from
+https://libosinfo.org/[libosinfo] database. The following Short IDs are
+currently supported:
 
-| Short ID | Name | Version | Family | ID |
-| --- | --- | --- | --- | --- |
-| **win2k12r2** | Microsoft Windows Server 2012 R2 | 6.3 | winnt | [https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2012-r2](https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2012-r2) |
+[width="100%",cols="20%,20%,20%,20%,20%",options="header",]
+|=======================================================================
+|Short ID |Name |Version |Family |ID
+|*win2k12r2* |Microsoft Windows Server 2012 R2 |6.3 |winnt
+|https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2012-r2
+|=======================================================================
 
-## Use with presets
+[[use-with-presets]]
+Use with presets
+~~~~~~~~~~~~~~~~
 
-A VirtualMachineInstancePreset representing an operating system with a `kubevirt.io/os` label could be applied on any given VirtualMachineInstance that have and match the`kubevirt.io/os` label.
+A VirtualMachineInstancePreset representing an operating system with a
+`kubevirt.io/os` label could be applied on any given
+VirtualMachineInstance that have and match the`kubevirt.io/os` label.
 
-Default presets for the OS identifiers above are included in the current release.
+Default presets for the OS identifiers above are included in the current
+release.
 
-### Windows Server 2012R2 `VirtualMachineInstancePreset` Example
+[[windows-server-2012r2-virtualmachineinstancepreset-example]]
+Windows Server 2012R2 `VirtualMachineInstancePreset` Example
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-```yaml
+[source,yaml]
+----
 apiVersion: kubevirt.io/v1alpha2
 kind: VirtualMachineInstancePreset
 metadata:
@@ -86,11 +97,13 @@ spec:
     - name: server2012r2
       persistentVolumeClaim:
         claimName: my-windows-image
-```
+----
 
-Once the `VirtualMachineInstancePreset` is applied to the `VirtualMachineInstance`, the resulting resource would look like this:
+Once the `VirtualMachineInstancePreset` is applied to the
+`VirtualMachineInstance`, the resulting resource would look like this:
 
-```yaml
+[source,yaml]
+----
 apiVersion: kubevirt.io/v1alpha2
 kind: VirtualMachineInstance
 metadata:
@@ -138,6 +151,6 @@ spec:
     - name: server2012r2
       persistentVolumeClaim:
         claimName: my-windows-image
-```
+----
 
-For more information see [VirtualMachineInstancePresets](presets)
+For more information see link:presets[VirtualMachineInstancePresets]

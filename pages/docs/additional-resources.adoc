@@ -1,0 +1,38 @@
+:page-layout: docs
+:page-permalink: /docs/additional-resources
+[[additional-resources]]
+Additional Resources
+--------------------
+
+[[incubator]]
+Incubator
+~~~~~~~~~
+
+The KubeVirt incubator is a place to give projects associated with
+KubeVirt a room to grow. These projects are monitored by KubeVirt
+maintainers, but might not be ripe enough yet to be a part of core
+KubeVirt.
+
+https://github.com/kubernetes-incubator/
+
+[[try-it-out]]
+Try it out
+~~~~~~~~~~
+
+* https://github.com/kubevirt/demo[Our easy to use demo]
+
+[[getting-help]]
+Getting help
+~~~~~~~~~~~~
+
+* https://github.com/kubevirt/kubevirt/issues[File a bug]
+* https://groups.google.com/forum/#!forum/kubevirt-dev[Mailing List]
+* irc://irc.freenode.net/#kubevirt[IRC]
+
+[[developer]]
+Developer
+~~~~~~~~~
+
+* https://github.com/kubevirt/kubevirt/blob/master/CONTRIBUTING.md[Start
+Contributing]
+* http://www.kubevirt.io/api-reference/[API Reference]

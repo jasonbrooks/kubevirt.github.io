@@ -1,27 +1,27 @@
----
-layout: docs
-title: DNS for Services and VirtualMachineInstances
-permalink: /docs/workloads/vms/dns-for-services.html
-navbar_active: Docs
-order: 10
----
+:page-layout: docs
+:page-permalink: /docs/workloads/vms/dns-for-services
+[[dns-for-services-and-virtualmachineinstances]]
+DNS for Services and VirtualMachineInstances
+--------------------------------------------
 
-# DNS for Services and VirtualMachineInstances
+[[creating-unique-dns-entries-per-virtualmachineinstance]]
+Creating unique DNS entries per VirtualMachineInstance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-## Creating unique DNS entries per VirtualMachineInstance
+In order to create unique DNS entries per VirtualMachineInstance, it is
+possible to set `spec.hostname` and `spec.subdomain`. If a subdomain is
+set and a headless service with a name, matching the subdomain, exists,
+kube-dns will create unique DNS entries for every VirtualMachineInstance
+which matches the selector of the service. Have a look at the
+https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/#pods-hostname-and-subdomain-fields[DNS
+for Servies and Pods documentation] for additional information.
 
-In order to create unique DNS entries per VirtualMachineInstance, it is possible to set
-`spec.hostname` and `spec.subdomain`. If a subdomain is set and a headless
-service with a name, matching the subdomain, exists, kube-dns will create
-unique DNS entries for every VirtualMachineInstance which matches the selector of the
-service. Have a look at the [DNS for Servies and Pods
-documentation](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/#pods-hostname-and-subdomain-fields)
-for additional information.
+The following example consists of a VirtualMchine and a headless Service
+witch matches the labels and the subdomain of the
+VirtualMachineInstance:
 
-The following example consists of a VirtualMchine and a headless Service witch
-matches the labels and the subdomain of the VirtualMachineInstance:
-
-```yaml
+[source,yaml]
+----
 apiVersion: kubevirt.io/v1alpha2
 kind: VirtualMachineInstance
 metadata:
@@ -66,14 +66,16 @@ spec:
   - name: foo # Actually, no port is needed.
     port: 1234
     targetPort: 1234
-```
+----
 
-As a consequence, when we enter the VirtualMachineInstance via e.g. `virtctl console
-vmi-fedora` and ping `myvmi.mysubdomain` we see that we find a DNS entry for
-`myvmi.mysubdomain.default.svc.cluster.local` which points to `10.244.0.57`,
-which is the IP of the VirtualMachineInstance (not of the Service):
+As a consequence, when we enter the VirtualMachineInstance via e.g.
+`virtctl console vmi-fedora` and ping `myvmi.mysubdomain` we see that we
+find a DNS entry for `myvmi.mysubdomain.default.svc.cluster.local` which
+points to `10.244.0.57`, which is the IP of the VirtualMachineInstance
+(not of the Service):
 
-```bash
+[source,bash]
+----
 [fedora@myvmi ~]$ ping myvmi.mysubdomain
 PING myvmi.mysubdomain.default.svc.cluster.local (10.244.0.57) 56(84) bytes of data.
 64 bytes from myvmi.mysubdomain.default.svc.cluster.local (10.244.0.57): icmp_seq=1 ttl=64 time=0.029 ms
@@ -84,11 +86,12 @@ PING myvmi.mysubdomain.default.svc.cluster.local (10.244.0.57) 56(84) bytes of d
        valid_lft 86313556sec preferred_lft 86313556sec
     inet6 fe80::858:aff:fef4:39/64 scope link
        valid_lft forever preferred_lft forever
-```
+----
 
-So `spec.hostname` and `spec.subdomain` get translated to a DNS A-record of the
-form
+So `spec.hostname` and `spec.subdomain` get translated to a DNS A-record
+of the form
 `<vmi.spec.hostname>.<vmi.spec.subdomain>.<vmi.metadata.namespace>.svc.cluster.local`.
-If no `spec.hostname` is set, then we fall back to the VirtualMachineInstance name
-itself. The resulting DNS A-record looks like this then:
+If no `spec.hostname` is set, then we fall back to the
+VirtualMachineInstance name itself. The resulting DNS A-record looks
+like this then:
 `<vmi.metadata.name>.<vmi.spec.subdomain>.<vmi.metadata.namespace>.svc.cluster.local`.

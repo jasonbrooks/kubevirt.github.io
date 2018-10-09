@@ -1,0 +1,13 @@
+:page-layout: docs
+:page-permalink: /docs/workloads/controllers
+[[controllers]]
+Controllers
+-----------
+
+Controllers provide the logic to manage virtual machine instances in a
+way that addresses specific use-cases:
+
+* link:controllers/virtual-machine-replica-set[VirtualMachineInstanceReplicaSet]:
+Replicating stateless Virtual Machines.
+* link:controllers/virtualmachine[VirtualMachine]: Stateful Virtual
+Machine, similar to a StatefulSet with replicas set to 1.

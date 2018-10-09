@@ -1,0 +1,86 @@
+[[User_Guide]]
+= KubeVirt User Guide
+:revnumber: {version}
+:revdate: {localdate}
+:toclevels: 3
+:toc-title: KubeVirt User Guide
+:doctype: book
+:icons: font
+#:source-highlighter: coderay
+:sectlinks:
+:idseparator: -
+:include-depth: 2
+:page-layout: tocdoc
+:page-permalink: /docs/User-Guide
+
+ifdef::env-github[:outfilesuffix: .adoc]
+
+
+ifndef::ebook-format[:leveloffset: 1]
+
+:numbered:
+
+
+////
+:leveloffset: 1
+////
+
+[[introduction]]
+Introduction
+------------
+
+KubeVirt is a Kubernetes add-on to run virtual machines (VirtualMachineInstances) on a Kubernetes cluster.
+
+This document is intended for users, and will guide you through installation and various features.
+
+include::pages/docs/installation.adoc[]
+
+include::pages/docs/installation/admission-controllers.adoc[]
+
+include::pages/docs/installation/feature-matrix.adoc[]
+
+include::pages/docs/usage.adoc[]
+
+include::pages/docs/authorization.adoc[]
+
+include::pages/docs/workloads.adoc[]
+
+include::pages/docs/workloads/vms/creation.adoc[]
+
+include::pages/docs/workloads/vms/node-eviction.adoc[]
+
+include::pages/docs/workloads/vms/presets.adoc[]
+
+include::pages/docs/workloads/vms/life-cycle.adoc[]
+
+include::pages/docs/workloads/vms/dns-for-services.adoc[]
+
+include::pages/docs/workloads/vms/expose-vm-services.adoc[]
+
+include::pages/docs/workloads/vms/create-networkpolicy.adoc[]
+
+include::pages/docs/workloads/vms/graphical-and-console-access.adoc[]
+
+include::pages/docs/workloads/vms/disks-and-volumes.adoc[]
+
+include::pages/docs/workloads/vms/interfaces-networks.adoc[]
+
+include::pages/docs/workloads/vms/startup-scripts.adoc[]
+
+include::pages/docs/workloads/vms/guest-os-info.adoc[]
+
+include::pages/docs/workloads/vms/virtual-hardware-config.adoc[]
+
+include::pages/docs/workloads/vms/vms-to-nodes.adoc[]
+
+include::pages/docs/workloads/controllers.adoc[]
+
+include::pages/docs/workloads/controllers/virtualmachine.adoc[]
+
+include::pages/docs/workloads/controllers/virtual-machine-replica-set.adoc[]
+
+include::pages/docs/workloads/templates.adoc[]
+
+include::pages/docs/workloads/annotations-labels.adoc[]
+
+include::pages/docs/additional-resources.adoc[]

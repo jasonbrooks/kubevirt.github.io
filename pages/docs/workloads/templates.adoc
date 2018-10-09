@@ -1,0 +1,13 @@
+:page-layout: docs
+:page-permalink: /docs/workloads/templates
+[[templates]]
+Templates
+---------
+
+!> This only works on OpenShift so far (See
+link:%7B%7B%20site.baseurl%20%7D%7D/docs/installation.html[Installation
+Guide] for more information on how to deploy KubeVirt on OpenShift).
+
+By deploying KubeVirt on top of OpenShift can user benefit from the
+https://docs.openshift.org/latest/dev_guide/templates.html[OpenShift
+Template] functionality.
